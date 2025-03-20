@@ -1,12 +1,12 @@
 import tkinter as tk
 
 def Click():
-    Text_label.config(text="Hi baby, Padaba taka palangga ko!")
+    Text_label.config(text="Padaba taka palangga ko!")
 
 app = tk.Tk()
 app.title("Thei")
 
-Text_label = tk.Label(app, text="", font=("Helvetica", 16))
+Text_label = tk.Label(app, text="Hi baby!", font=("Helvetica", 16))
 Text_label.pack(pady=20)
 
 Click_button = tk.Button(app, text="Click", command=Click, font=("Helvetica", 14))
